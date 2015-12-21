@@ -10,7 +10,7 @@
     <form id="form1" runat="server">
     <div>
         <asp:TextBox ID="TextBoxOne" runat="server" Text="Wello, hurld!"></asp:TextBox>
-    <asp:Label ID="LabelOne" runat="server" Text="Stämpel"></asp:Label>
+        <asp:Label ID="LabelOne" runat="server" Text="Stämpel"></asp:Label>
         <asp:Button ID="ButtonOne" runat="server" Text="Knapp"/>
         <asp:HyperLink ID="HyperLinkOne" runat="server" href="www.hd.se" Text="x"></asp:HyperLink>
         <asp:Panel ID="PanelOne" runat="server" Height="50px" Width="50px" BackColor="red"></asp:Panel>

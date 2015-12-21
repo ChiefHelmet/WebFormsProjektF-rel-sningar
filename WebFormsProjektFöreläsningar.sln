@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001 måndag 15-12-21 hellow
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "002 måndag 15-12-21 övning", "002 måndag 15-12-21 övning\002 måndag 15-12-21 övning.csproj", "{DA1CB65B-EDC8-4F2E-84E2-B1CCCC011D22}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "003 övning calculator", "003 övning miniräknare\003 övning calculator.csproj", "{AD36D305-CA33-4876-9F09-89DB3F1C6D48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "004 MeasureConverter", "004 MeasureConverter\004 MeasureConverter.csproj", "{ED66DBB6-BC97-4A88-A310-8759832D4FB0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{DA1CB65B-EDC8-4F2E-84E2-B1CCCC011D22}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA1CB65B-EDC8-4F2E-84E2-B1CCCC011D22}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA1CB65B-EDC8-4F2E-84E2-B1CCCC011D22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD36D305-CA33-4876-9F09-89DB3F1C6D48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD36D305-CA33-4876-9F09-89DB3F1C6D48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD36D305-CA33-4876-9F09-89DB3F1C6D48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD36D305-CA33-4876-9F09-89DB3F1C6D48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED66DBB6-BC97-4A88-A310-8759832D4FB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED66DBB6-BC97-4A88-A310-8759832D4FB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED66DBB6-BC97-4A88-A310-8759832D4FB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED66DBB6-BC97-4A88-A310-8759832D4FB0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
