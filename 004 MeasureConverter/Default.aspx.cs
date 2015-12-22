@@ -12,7 +12,7 @@ namespace _004_MeasureConverter
         protected void Page_Load(object sender, EventArgs e)
         {
             ConvertToMeter.Click += ConvertToMeter_Click;
-            ConvertToFeet.Click += ConvertToFeet_Click;
+            //ConvertToFeet.Click += ConvertToFeet_Click;
         }
 
 
@@ -20,19 +20,28 @@ namespace _004_MeasureConverter
         private void ConvertToMeter_Click(object sender, EventArgs e)
         {
             string value = string.Empty;
-            value = ConvertToMeter.Text;
+            value = TextBoxOne.Text;
 
+            double doubleValue;
+            //double.TryParse(TextBoxOne.Text, out doubleValue);
+            double.TryParse(value, out doubleValue);
+            //ConvertClass.MetersToFeet(doubleValue);
+            doubleValue = doubleValue*0.3048;
+            //doubleValue.ToString();
 
+            TextBoxOne.Text = doubleValue.ToString();
+
+            //double.TryParse(TextBoxOne, out)
             //TextBoxOne = value;
         }
-        private void ConvertToFeet_Click(object sender, EventArgs e)
-        {
-            string value = string.Empty;
-            value = ConvertToFeet.Text;
+        //private void ConvertToFeet_Click(object sender, EventArgs e)
+        //{
+        //    string value = string.Empty;
+        //    value = ConvertToFeet.Text;
 
 
-            //TextBoxOne = value;
-            //kod: double.tryparse(textBoxOne, out/*<- viktig!*/ value
-        }
+        //    //TextBoxOne = value;
+        //    //kod: double.tryparse(textBoxOne, out/*<- viktig!*/ value
+        //}
     }
 }
