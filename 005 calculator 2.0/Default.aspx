@@ -9,8 +9,9 @@
 <body>
     <form id="form1" runat="server">
     <div>
-        <asp:TextBox id="InputBoxTwo" runat="server"/>
         <asp:TextBox id="InputBoxOne" runat="server"/>
+        <asp:TextBox id="InputBoxTwo" runat="server"/>
+        
         
 
         <asp:TextBox id="OutputBox" runat="server"/>
@@ -19,7 +20,7 @@
         
 
         <asp:Button id="ButtonAdd" Text="+" runat="server" OnClick="ButtonAdd_Click"/>
-        <asp:Button id="ButtonSubtract" Text="-" runat="server"/>
+        <asp:Button id="ButtonSubtract" Text="-" runat="server" OnClick="ButtonSubtract_Click"/>
 
         </p>
     </form>

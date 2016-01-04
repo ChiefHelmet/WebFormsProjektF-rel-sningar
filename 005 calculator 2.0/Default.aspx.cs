@@ -27,5 +27,19 @@ namespace _005_calculator_2._0
             double OutputValue = doubleInputValueOne + doubleInputValueTwo;
             OutputBox.Text = OutputValue.ToString();
         }
+
+        protected void ButtonSubtract_Click(object sender, EventArgs e)
+        {
+            string inputValueOne = string.Empty;
+            string inputValueTwo = string.Empty;
+            inputValueOne = InputBoxOne.Text;
+            inputValueTwo = InputBoxTwo.Text;
+            double doubleInputValueOne;
+            double doubleInputValueTwo;
+            double.TryParse(inputValueOne, out doubleInputValueOne);
+            double.TryParse(inputValueTwo, out doubleInputValueTwo);
+            double OutputValue = doubleInputValueOne - doubleInputValueTwo;
+            OutputBox.Text = OutputValue.ToString();
+        }
     }
 }
