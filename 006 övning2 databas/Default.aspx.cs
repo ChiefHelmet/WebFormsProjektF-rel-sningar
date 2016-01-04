@@ -12,7 +12,7 @@ namespace _006_övning2_databas
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            SqlConnection con = new sqlConnection("Data source=localhost:initial Catalog=AdventureWorks2012;User ID=myuser; Password=mypassword;Integrated Security = True");
+            SqlConnection con = new SqlConnection("Data source=localhost:initial Catalog=AdventureWorks2012;User ID=DavidDeveloper; Password=dummypassword;Integrated Security = True");
             string sqlQuery = "SELECT * FROM Production.ProductCategory";
             SqlCommand cmd = new SqlCommand(sqlQuery, con);
             SqlDataReader oreader;
