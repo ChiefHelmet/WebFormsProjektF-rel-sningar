@@ -42,11 +42,7 @@ namespace _006_övning2_databas
                 Label1.Text = ex.Message;
                 Label1.Visible = true;
             }
-        }
 
-        //protected void buttonOne_OnClick(object sender, EventArgs e)
-        //{
-        //    throw new NotImplementedException();
-        //}
+        }
     }
 }
